@@ -1,11 +1,11 @@
 name: First Workflow
 
-on: [Push]
+on: [push]
 
 jobs:
-  print message:
+  print_message:
     runs-on: ubuntu-latest
 
     steps:
     - name: Print Message
-      run: echo" Hello"
+      run: echo "Hello"
