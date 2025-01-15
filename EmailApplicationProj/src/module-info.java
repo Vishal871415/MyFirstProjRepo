@@ -1,0 +1,2 @@
+module EmailApplicationProj {
+}
